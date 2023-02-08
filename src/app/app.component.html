@@ -1,2 +1,5 @@
 <h2>Angular Reusuable Components </h2>
-<app-user-details></app-user-details>
+
+<ul *ngFor="let item of userdetails">
+  <app-user-details [data]="item"></app-user-details>
+</ul>

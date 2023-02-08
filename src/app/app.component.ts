@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-reusuable-comp';
+  userdetails = [
+    {
+      name: 'Akash',
+      country: 'india'
+    },
+    {
+      name: 'demo',
+      country: 'canada'
+    }
+  ]
 }
