@@ -6,15 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-reusuable-comp';
-  userdetails = [
-    {
-      name: 'Akash',
-      country: 'india'
-    },
-    {
-      name: 'demo',
-      country: 'canada'
-    }
-  ]
+  title = 'Sending Data From Child to parent component';
+  updateData (item:string) {
+    console.log(item);
+  }
 }

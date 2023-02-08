@@ -1,5 +1,2 @@
-<h2>Angular Reusuable Components </h2>
-
-<ul *ngFor="let item of userdetails">
-  <app-user-details [data]="item"></app-user-details>
-</ul>
+<h2>{{title}}</h2>
+<app-child (updateDataEvent)="updateData($event)"></app-child>
